@@ -1,4 +1,4 @@
-<h1> All Artilces</h1>		
+<h1> All Articles</h1>		
 
 <ul id="articles">
 	<% @articles.each do |article| %>
@@ -9,3 +9,5 @@
 </ul>	
 
 <%= link_to "Create a New Article", new_article_path, class: "new_article" %>
+
+<%= link_to "<< Back to Articles List", articles_path %>
